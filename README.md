@@ -1,3 +1,9 @@
-# My Awesome Book
+# vue.js 教學手冊
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+## 技能要求
+
+* 懂 HTML、CSS
+* 需要有基礎 JS 技能，若此[測驗](/ https://goo.gl/forms/0y7mnpYhQL4DAE28)可達 90 分以上便達門檻 
+
+
+
