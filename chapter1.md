@@ -34,10 +34,11 @@ document.querySelector('.hi').textContent ='Hello World！';
 那假使是 Vue.js 呢？  
 每個框架都會有它的規則，以下面程式碼為例：
 
-* Vue.js 則是需要新增一個 `new Vue() `
-* el 是設定
-* 
-[JSBIN範例程式碼](http://jsbin.com/fekufagofa/1/edit?html,js,output)：
+* 新增一個`new Vue()`
+* `el` 是要綁定的 DOM 元素，讓 DOM 裡面的作用域都可使用 Vue.js
+* `{{ 'Hello World' }}` 兩個大刮號是 Vue.js 渲染內容的格式，裡面帶了字串 `'Hello World'` 便可直接呈現在網頁上
+
+[JSBIN範例程式碼](http://jsbin.com/yolanumova/1/edit)
 
 ```js
 <!DOCTYPE html>
